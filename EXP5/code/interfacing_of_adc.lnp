@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "main.o" --strict --scatter "interfacing_of_adc.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\interfacing_of_adc.map" -o "interfacing_of_adc.axf"

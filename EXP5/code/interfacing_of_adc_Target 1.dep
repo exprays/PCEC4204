@@ -1,2 +1,6 @@
 Dependencies for Project 'interfacing_of_adc', Target 'Target 1': (DO NOT MODIFY !)
 F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\main.c)(0x679C9AF3)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keil\ARM\INC\Philips\lpc214x.h)(0x4A02A636)
+I (LCD.h)(0x60A3D19A)
+I (ADC.h)(0x60A3D28C)
