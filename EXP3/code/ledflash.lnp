@@ -1,4 +1,4 @@
---device DARMP "startup.o" "ledflash.o" --strict --scatter "ledflash.sct" 
+--device DARMP "startup.o" --strict --scatter "ledflash.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
  --list ".\ledflash.map" -o "ledflash.axf"

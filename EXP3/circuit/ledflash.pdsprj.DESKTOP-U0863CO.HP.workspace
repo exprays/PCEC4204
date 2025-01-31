@@ -7,76 +7,256 @@
  <MODULE name="VSMDEBUG">
   <PWI>
    <POPUP w="800" x="203" flags="00000002" y="138" h="200" pid="0" iid="-1">
-    <PROPERTIES/>
+    <PROPERTIES>
+     <ITEM name="Message Column Width">663</ITEM>
+     <ITEM name="ShowGrid">No</ITEM>
+     <ITEM name="Source Column Width">100</ITEM>
+     <ITEM name="Version">100</ITEM>
+    </PROPERTIES>
    </POPUP>
    <POPUP w="350" x="223" flags="00000032" y="158" h="200" pid="1" iid="-1">
-    <PROPERTIES/>
+    <PROPERTIES>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">No</ITEM>
+     <ITEM name="ShowWatchPoint">Yes</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="nItems">0</ITEM>
+    </PROPERTIES>
    </POPUP>
    <POPUP w="62" x="243" flags="00000008" y="178" h="12" pid="1" iid="1">
     <PROPERTIES/>
    </POPUP>
-   <POPUP w="4" x="263" flags="8000000a" y="198" h="16" pid="32781" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="263" flags="0000000a" y="198" h="16" pid="32781" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0034000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="283" flags="8000000a" y="218" h="16" pid="32792" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="283" flags="0000000a" y="218" h="16" pid="32792" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0060000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="303" flags="8000000a" y="238" h="16" pid="32795" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="303" flags="0000000a" y="238" h="16" pid="32795" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E006C000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="323" flags="8000000a" y="258" h="16" pid="32778" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="323" flags="0000000a" y="258" h="16" pid="32778" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0028000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="343" flags="8000000a" y="278" h="16" pid="32775" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="343" flags="0000000a" y="278" h="16" pid="32775" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E001C000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="363" flags="8000000a" y="298" h="16" pid="32791" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="363" flags="0000000a" y="298" h="16" pid="32791" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E005C000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="383" flags="8000000a" y="318" h="16" pid="32779" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="383" flags="0000000a" y="318" h="16" pid="32779" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E002C000</ITEM>
+    </PROPERTIES>
    </POPUP>
    <POPUP w="30" x="403" flags="00000008" y="338" h="16" pid="10" iid="1">
     <PROPERTIES/>
    </POPUP>
-   <POPUP w="4" x="423" flags="8000000a" y="358" h="16" pid="32773" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="423" flags="0000000a" y="358" h="16" pid="32773" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0014000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="443" flags="8000000a" y="378" h="16" pid="32777" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="443" flags="0000000a" y="378" h="16" pid="32777" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0024000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="463" flags="8000000a" y="398" h="16" pid="32776" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="463" flags="0000000a" y="398" h="16" pid="32776" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0020000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="483" flags="8000000a" y="418" h="16" pid="32794" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="483" flags="0000000a" y="418" h="16" pid="32794" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0068000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="503" flags="8000000a" y="438" h="16" pid="32769" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="503" flags="0000000a" y="438" h="16" pid="32769" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0004000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="523" flags="8000000a" y="458" h="16" pid="32770" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="523" flags="0000000a" y="458" h="16" pid="32770" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0008000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="543" flags="8000000a" y="478" h="16" pid="32771" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="543" flags="0000000a" y="478" h="16" pid="32771" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E000C000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="563" flags="8000000a" y="498" h="16" pid="32772" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="563" flags="0000000a" y="498" h="16" pid="32772" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0010000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="583" flags="8000000a" y="518" h="16" pid="32768" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="583" flags="0000000a" y="518" h="16" pid="32768" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E0000000</ITEM>
+    </PROPERTIES>
    </POPUP>
    <POPUP w="16" x="603" flags="0000000a" y="538" h="32" pid="8" iid="1">
-    <PROPERTIES/>
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">00000000</ITEM>
+    </PROPERTIES>
    </POPUP>
    <POPUP w="16" x="623" flags="0000000a" y="558" h="32" pid="9" iid="1">
-    <PROPERTIES/>
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">40000000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="643" flags="8000000a" y="578" h="16" pid="32895" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="643" flags="0000000a" y="578" h="16" pid="32895" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">E01FC000</ITEM>
+    </PROPERTIES>
    </POPUP>
-   <POPUP w="4" x="663" flags="8000000a" y="598" h="16" pid="65535" iid="1">
-    <PROPERTIES/>
+   <POPUP w="4" x="663" flags="0000000a" y="598" h="16" pid="65535" iid="1">
+    <PROPERTIES>
+     <ITEM name="DataType">2</ITEM>
+     <ITEM name="DispChars">Yes</ITEM>
+     <ITEM name="DispFormat">2</ITEM>
+     <ITEM name="ShowChanges">Yes</ITEM>
+     <ITEM name="ShowToolTips">Yes</ITEM>
+     <ITEM name="TopLineAddress">FFFFF000</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="600" x="203" flags="0000002b" y="138" h="400" pid="2" iid="1">
+    <PROPERTIES>
+     <ITEM name="CaseSensitive">No</ITEM>
+     <ITEM name="DISPADDRS">Yes</ITEM>
+     <ITEM name="DISPLNUMS">No</ITEM>
+     <ITEM name="DISPOPCODES">No</ITEM>
+     <ITEM name="FIXUPBPTS">Yes</ITEM>
+     <ITEM name="WordsOnly">No</ITEM>
+     <ITEM name="nBreakpoints">0</ITEM>
+    </PROPERTIES>
+   </POPUP>
+   <POPUP w="300" x="223" flags="0000000b" y="158" h="300" pid="3" iid="1">
+    <PROPERTIES>
+     <ITEM name="AutoResize">No</ITEM>
+     <ITEM name="Gridlines">Yes</ITEM>
+     <ITEM name="ShowAddresses">Yes</ITEM>
+     <ITEM name="ShowGlobals">Yes</ITEM>
+     <ITEM name="ShowPreviousValues">No</ITEM>
+     <ITEM name="ShowTypes">No</ITEM>
+     <ITEM name="ShowWatchPoint">No</ITEM>
+     <ITEM name="TriggerMode">0</ITEM>
+     <ITEM name="Version">100</ITEM>
+     <ITEM name="nItems">0</ITEM>
+    </PROPERTIES>
    </POPUP>
   </PWI>
  </MODULE>

@@ -2,19 +2,18 @@
 ### Preparing for ADS-LD.
 ### Creating ADS-LD Command Line
 ### List of Objects: adding '"startup.o"'
-### List of Objects: adding '"ledflash.o"'
 ### ADS-LD Command completed:
---device DARMP "startup.o" "ledflash.o" --strict --scatter "ledflash.sct" 
+--device DARMP "startup.o" --strict --scatter "ledflash.sct" 
 --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
 --info sizes --info totals --info unused --info veneers 
  --list ".\ledflash.map" -o "ledflash.axf"### Preparing Environment (PrepEnvAds)
 ### ADS-LD Output File: 'ledflash.axf'
 ### ADS-LD Command File: 'ledflash.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'ledflash.lnp', Handle=0x000008C0
+### Creating CmdFile 'ledflash.lnp', Handle=0x00000660
 ### Writing '.lnp' file
 ### ADS-LD Command file 'ledflash.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
-### ADS-LD: executed with 0 errors
+### ADS-LD: executed with 1 errors
 ### Updating obj list
 ### LDADS_file() completed.
