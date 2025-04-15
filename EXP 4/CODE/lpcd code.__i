@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "lpcd code.o" --omf_browse "lpcd code.crf" --depend "lpcd code.d" "LPCD CODE.c"
