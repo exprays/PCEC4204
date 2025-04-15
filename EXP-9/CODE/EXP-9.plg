@@ -1,0 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\HP\Desktop\4th sem ARABINDA\EXP-9\CODE\EXP-9.uvproj
+Project File Date:  03/27/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling CODEFILE.c...
+CODEFILE.c(5): warning:  #951-D: return type of function "main" must be "int"
+linking...
+Program Size: Code=1160 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"EXP-9.axf" - 0 Error(s), 1 Warning(s).

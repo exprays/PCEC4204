@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "codefile.o" --strict --scatter "EXP-9.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\EXP-9.map" -o "EXP-9.axf"
