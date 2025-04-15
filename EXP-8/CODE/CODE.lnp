@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "relayp.o" --strict --scatter "CODE.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CODE.map" -o "CODE.axf"

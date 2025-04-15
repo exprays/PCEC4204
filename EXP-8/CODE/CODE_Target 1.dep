@@ -1,0 +1,4 @@
+Dependencies for Project 'CODE', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x4A02A570)(--device DARMP --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Keil\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\relayp.c)(0x67DB86DB)(-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "relayp.o" --omf_browse "relayp.crf" --depend "relayp.d")
+I (C:\Keil\ARM\INC\Philips\LPC214X.H)(0x4A02A636)

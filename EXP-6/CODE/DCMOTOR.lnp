@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "code.o" --strict --scatter "DCMOTOR.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\DCMOTOR.map" -o "DCMOTOR.axf"

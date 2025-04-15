@@ -1,0 +1,1 @@
+-c --device DARMP -D__EVAL -g -O0 --apcs=interwork -I "C:\Keil\ARM\INC\Philips" -o "relayp.o" --omf_browse "relayp.crf" --depend "relayp.d" "relayp.c"

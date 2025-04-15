@@ -1,0 +1,4 @@
+--device DARMP "startup.o" "code7_1.o" --strict --scatter "exp7code.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\exp7code.map" -o "exp7code.axf"

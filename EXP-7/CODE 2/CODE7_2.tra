@@ -1,0 +1,20 @@
+*** Creating Trace Output File 'CODE7_2.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"code7_2.o"'
+### ADS-LD Command completed:
+--device DARMP "startup.o" "code7_2.o" --strict --scatter "CODE7_2.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\CODE7_2.map" -o "CODE7_2.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'CODE7_2.axf'
+### ADS-LD Command File: 'CODE7_2.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'CODE7_2.lnp', Handle=0x00000664
+### Writing '.lnp' file
+### ADS-LD Command file 'CODE7_2.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
